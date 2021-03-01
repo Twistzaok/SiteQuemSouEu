@@ -1,0 +1,146 @@
+* {
+    font-family: Montserrat;
+}
+
+.body-color {
+    background-color: #FFFDD0;
+}
+
+body {
+    padding-top: 20px;
+}
+
+h1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.container-2 {
+    margin-left: 10%;
+    width: 80%;
+}
+
+.grid-template {
+    display: grid;
+    gap: 20px;
+    grid-template:
+            "sidebar sidebar interests interests interests"
+            "sidebar sidebar icon1 icon2 icon3" 1fr
+            "sidebar sidebar icon4 icon5 icon6" 1fr
+		/ 5fr 5fr 100px 100px 100px;
+}
+
+.smalllabel {
+    font-size: 12px;
+    text-align: center;
+}
+
+.grid-template-2 {
+    display: grid;
+    gap: 20px;
+    grid-template:
+            "sidebar2 sidebar2 interests2"
+            "sidebar2 sidebar2 project" 1fr
+            "sidebar2 sidebar2 info"
+		/ 5fr 5fr 3fr;
+}
+
+.item {
+    background-color: #FFFFF0;
+    padding: 2px;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.interests {
+    grid-area: interests;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    padding: 10px;
+}
+
+.sidebar2 {
+    grid-area: sidebar2;
+}
+
+.info {
+    grid-area: info;
+}
+
+.interests2 {
+    grid-area: interests2;
+}
+
+.project {
+    text-align: center;
+    grid-area: project;
+}
+
+.icon1 {
+    grid-area: icon1;
+}
+
+.icon2 {
+    grid-area: icon2;
+}
+
+.icon3 {
+    grid-area: icon3;
+}
+
+.icon4 {
+    grid-area: icon4;
+}
+
+.icon5 {
+    grid-area: icon5;
+}
+
+.icon6 {
+    grid-area: icon6;
+}
+
+.icon {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.image-icon {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+.image-icon-2 {
+    width: 95%;
+    margin: 2.5%;
+}
+
+.padding {
+    padding: 5px;
+}
+
+.bold {
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.important {
+    color: #7289da;
+}
+
+.letmesee {
+    border-radius: 10px;
+}
+
+.item {
+    border-radius: 10px;
+}
