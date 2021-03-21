@@ -6,6 +6,20 @@
     background-color: #FFFDD0;
 }
 
+
+.dark {
+    color: black;
+}
+
+.dark:hover{
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 body {
     padding-top: 20px;
 }
